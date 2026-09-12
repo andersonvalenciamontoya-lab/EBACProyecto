@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Holamundo : MonoBehaviour
 {
+    private void Awake()
+    {
+        Debug.Log("Hola desde awake");
+    }
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("NICE");
-        Debug.LogError("OOOOO NOOO");
-        Debug.LogWarning("REVISATE");
+        Debug.Log("Hola desde start");
+        
     }
 
     // Update is called once per frame
